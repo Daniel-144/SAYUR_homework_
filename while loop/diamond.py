@@ -6,7 +6,7 @@
 lines=int(input("enter the number of lines"))
 number=1
 count=0
-if lines>=10:
+if lines <=10:
     while(number<=lines//2):
         choice=input("enter space to print:")
         if choice ==" " and count<=5:
