@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2023-08-06T08:50:45.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="LP2IebS7F2a3nv6GJGsL" version="21.6.5" type="device">
+  <diagram name="Page-1" id="WDu71oluH2D_O1Rr1SQL">
+    <mxGraphModel dx="1120" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R1k5rg_0Befo6b8mL-et-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-1" target="R1k5rg_0Befo6b8mL-et-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-1" value="a boy is going to a book shop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-2" target="R1k5rg_0Befo6b8mL-et-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-2" value="money_he_have=1000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-4" target="R1k5rg_0Befo6b8mL-et-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-4" value="he bought some comic books" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-6" target="R1k5rg_0Befo6b8mL-et-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-6" target="R1k5rg_0Befo6b8mL-et-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-6" value="if bill_amount&amp;gt;money he_have" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-8" target="R1k5rg_0Befo6b8mL-et-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-8" value="pay the bill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-10" target="R1k5rg_0Befo6b8mL-et-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-10" target="R1k5rg_0Befo6b8mL-et-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="750" />
+              <mxPoint x="460" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-10" value="if remaining_amt&amp;gt;30" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-11" target="R1k5rg_0Befo6b8mL-et-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-11" value="remaining_amt= money_he_have - bill_amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="470" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-14" value="go back home" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-16" target="R1k5rg_0Befo6b8mL-et-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-16" value="he can buy a icecream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-17" value="remaining_amt= money_he_have - bill_amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-21" target="R1k5rg_0Befo6b8mL-et-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-21" value="do they have a card machine?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="460" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-23" target="R1k5rg_0Befo6b8mL-et-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-23" value="pay using credit/debit card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-26" target="R1k5rg_0Befo6b8mL-et-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-26" value="search for a ATM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.408;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R1k5rg_0Befo6b8mL-et-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="600" as="targetPoint" />
+            <mxPoint x="130" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="129" y="700" />
+              <mxPoint x="490" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1k5rg_0Befo6b8mL-et-27" value="withdraw money from the ATM and pay the bill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
