@@ -3,33 +3,32 @@
 #After printing each line, wait for user input. If the user presses space, continue
 #If the users presses any other key, stop printing. Maximum 10 lines
 
-lines=int(input("enter the number of lines"))
-number=1
-count=0
-if lines <=10:
-    while(number<=lines//2):
-        choice=input("enter space to print:")
-        if choice ==" " and count<=5:
-            print(" "*((lines//2)-number),end="")
-            print(f"{'$ '*number}",end=" ")
-            number+=1
-            count+=1
+lines=int(input("enter the number of lines (less than or equal to 5)"))
+number,i=1,1
+
+if lines <= 5:
+    while number <= lines:
+        choice=input("enter space to print diamond pattern:")
+        if choice==" ":
+            print(" "*(lines-number),end="")
+            print(f"{'$ '*number}",end="")
+            number +=1
         else:
-          break
+            break
         print()
-    n=1
-    while(n<=lines//2):
-        choice=input("enter space to print:")
-        if choice==" " and count<=10:
-            print(" "*(n),end="")
-            print(f"{'$ '*((lines//2)-n)}",end=" ")
-            n+=1
-            count+=1
+    while lines > 0:
+        choice=input("enter space to print diamond pattern:")
+        if choice==" ":
+            print(" "*(i),end="")
+            print(f"{'$ '*(lines-i)}",end=" ")
+            i+=1
         else:
             break
         print()
 else:
-    print("maximum number of lines is 10.")
+    print("maximum lines is 10")
+
+
     
 
 
