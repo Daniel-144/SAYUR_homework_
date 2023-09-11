@@ -2,7 +2,7 @@
 # Bride has saved Rs50000. Determine if the bride has to take a loan or not.
 # If loan, how much?
 def predefined():
-    members_invited = int(input('number of persons invited for the wedding '))
+    members_invited = int(input('number of persons invited for the wedding :'))
     lunch_per_person = 200
     breakfast_per_person = lunch_per_person / 2
     hall_rent = 200
@@ -54,3 +54,20 @@ else:
         remaining_amount = bride_savings - bride_expenses
         print('the remaining amount would be : ', remaining_amount)
 
+"""
+OP
+*****menu*****
+1.enter 1 if u want to use the total expenses obtained in the previous program
+enter other numbers than 1 if u want to define the total amount spent
+enter your choice1
+number of persons invited for the wedding: 200
+total lunch expenses :  40000
+total breakfast expenses :  20000.0
+total hall expenses :  40000
+parking lot expenses :  4000.0
+decoration expenses :  20000.0
+total expenses :  124000.0
+62000.0
+bride have to take loan
+loan amount would be :  12000.0
+"""

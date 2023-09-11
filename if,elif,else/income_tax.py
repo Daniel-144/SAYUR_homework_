@@ -104,3 +104,16 @@ else:
             tax=100000+(temp*0.3)
             cess=tax*0.04
             print(f'tax :{tax}\n cess:{cess}' )
+
+"""
+OP
+enter your gross salary: 4500000
+enter the deductions: 500000
+enter your age: 45
+category : citizen
+age:  45
+gross income: 4500000
+ deductions: 500000
+ taxable income: 4000000
+tax :  900000.0
+"""

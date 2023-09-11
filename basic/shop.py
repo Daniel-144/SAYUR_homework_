@@ -19,3 +19,23 @@ else :
         balance= your_money-total
         print("the balance money is : ",balance)
 
+"""
+*****menu*****
+the cost of vadai is : 30
+the cost of soda is : 20
+the cost of sandwich is : 100
+enter the number of vadai you want : 2
+enter the number of soda you want : 4
+enter the number of sandwich you want : 10
+the cost of the bill is greater than the money you have.
+"""
+"""
+*****menu*****
+the cost of vadai is : 30
+the cost of soda is : 20
+the cost of sandwich is : 100
+enter the number of vadai you want : 1
+enter the number of soda you want : 1
+enter the number of sandwich you want : 1
+the balance money is :  850.0
+"""

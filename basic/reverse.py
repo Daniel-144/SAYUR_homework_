@@ -6,9 +6,13 @@ if num < 10:
     print('entered number cannot be reversed and the entered number is : ',num)
 else:
     # if it is a double or more than double-digit number the code given in the else part will be executed.
-    while num > 0:298
+    while num > 0:
           remain = num % 10
           rev = rev*10+remain
           num = num//10
     print('the reversed version of this given number is : ',rev)
 
+"""
+enter a number greater than 9 to reverse : 456
+the reversed version of this given number is :  654
+"""

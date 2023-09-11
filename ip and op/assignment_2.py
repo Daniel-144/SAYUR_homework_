@@ -43,7 +43,33 @@ else:
                         student_10,spent,total)
 
 
-
+"""
+OP
+enter the the amount for student 1:1000
+enter the the amount for student 2:500
+enter the the amount for student 3:900
+enter the the amount for student 4:800
+enter the the amount for student 5:900
+enter the the amount for student 6:1000
+enter the the amount for student 7:9000
+enter the the amount for student 8:700
+enter the the amount for student 9:600
+enter the the amount for student 10:800
+enter the spent amount: 10000
+total amount : 16200
+spent amount is:  10000
+balance amount is :  6200
+the balance of student 1 is  382.71604938271605
+the balance of student 2 is  191.35802469135803
+the balance of student 3 is  344.4444444444444
+the balance of student 4 is  306.1728395061728
+the balance of student 5 is  344.4444444444444
+the balance of student 6 is  382.71604938271605
+the balance of student 7 is  3444.444444444445
+the balance of student 8 is  267.9012345679012
+the balance of student 9 is  229.62962962962962
+the balance of student 10 is  306.1728395061728
+"""
 
 
 

@@ -44,3 +44,59 @@ for month, phoneCount in enumerate(monthlySalesList,1):
             base_pay += base_pay*0.05 
         print(f"salary of month {month} after additional bonus {currentMonthSalary}\n")
         previousMonthSalary = currentMonthSalary # to use this salary to the next iteration so we use to save current salary to the variable called previousmonthsalary
+
+"""
+OP
+salary of month 1 before the additional bonus is : 10000
+cumulative bonus:  5000
+salary of month 1 after additional bonus is : 15000
+
+salary of month 2 before the additional bonus is : 10000
+cumulative bonus:  29800
+salary of month 2 after additional bonus 34800
+
+salary of month 3 before the additional bonus is : 10000
+cumulative bonus:  52400
+cumulative bonus after the addition of consistancy bonus is :  57400
+salary of month 3 after additional bonus 37600
+
+salary of month 4 before the additional bonus is : 10000
+cumulative bonus:  72300
+salary of month 4 after additional bonus is : 24900
+
+salary of month 5 before the additional bonus is : 10000
+cumulative bonus:  97100
+cumulative bonus after the addition of consistancy bonus is :  102100
+salary of month 5 after additional bonus 39800
+
+salary of month 6 before the additional bonus is : 10500.0
+cumulative bonus:  114800
+salary of month 6 after additional bonus 23200.0
+
+salary of month 7 before the additional bonus is : 11025.0
+cumulative bonus:  114800
+salary of month 7 after additional bonus 11025.0
+
+salary of month 8 before the additional bonus is : 11576.25
+cumulative bonus:  127500
+salary of month 8 after additional bonus 24276.25
+
+salary of month 9 before the additional bonus is : 12155.0625
+cumulative bonus:  151200
+cumulative bonus after the addition of consistancy bonus is :  156200
+salary of month 9 after additional bonus 40855.0625
+
+salary of month 10 before the additional bonus is : 12762.815625
+cumulative bonus:  179900
+cumulative bonus after the addition of consistancy bonus is :  184900
+salary of month 10 after additional bonus 41462.815625
+
+salary of month 11 before the additional bonus is : 13400.95640625
+cumulative bonus:  221800
+cumulative bonus after the addition of consistancy bonus is :  226800
+salary of month 11 after additional bonus 55300.95640625
+
+salary of month 12 before the additional bonus is : 14071.0042265625
+cumulative bonus:  239500
+salary of month 12 after additional bonus 26771.0042265625
+"""

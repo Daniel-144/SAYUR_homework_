@@ -42,3 +42,63 @@ print('number of buildings jumped and selfies posted : ',selfies_posted)
 print('no of coffee consumed to regain energy : ',coffee_consumed)
 print('remaining energy : ',energy)
 print('number of times travelled using bus : ',bus)
+
+"""
+OP
+#cannot check that for 456 so consider distance as 45km
+* if there is any tall buildings press '1' 
+ *else press 'any other number'
+is there any tall building? 1
+distacne travelled by him: 1
+* if there is any tall buildings press '1' 
+ *else press 'any other number'
+is there any tall building? 2
+no tall buildings found he has to travell in a bus
+distance travelled by him: 11
+he travelled 11 km so he have to travel only 34km
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distacne travelled by him: 12
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distance travelled by him: 13
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 2
+no tall buildings found he has to travell in a bus
+distance travelled by him: 23
+he travelled 23 km so he have to travel only 22km
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distacne travelled by him: 24
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distance travelled by him: 25
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distacne travelled by him: 26
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 2
+no tall buildings found he has to travell in a bus
+distance travelled by him: 36
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 1
+distance travelled by him: 37
+* if there is any tall buildings press '1'
+ *else press 'any other number'
+is there any tall building? 2
+no tall buildings found he has to travell in a bus
+distance travelled by him: 47
+**** summary ****
+number of buildings jumped and selfies posted :  7
+no of coffee consumed to regain energy :  3
+remaining energy :  1
+number of times travelled using bus :  4
+"""

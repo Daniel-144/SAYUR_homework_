@@ -30,3 +30,10 @@ else:
     education_level= level_of_education (age)
     print(education_level)
 
+"""
+OP
+enter your name : daniel
+hello daniel , enter the year you were born : 2004
+your age is :  19
+you are in college or graduated
+"""

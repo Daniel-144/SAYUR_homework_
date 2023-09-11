@@ -34,4 +34,11 @@ print('no of one rupee coin needed is :',one_rs)
 print('no of three rupee coin needed is:',three)
 print('no of five rupee coin needed is :',five_rs)
 
+"""
+OP
+enter the amount of money needed :48
+no of one rupee coin needed is : 0
+no of three rupee coin needed is: 1
+no of five rupee coin needed is : 9
+"""
 

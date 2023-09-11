@@ -43,6 +43,7 @@ else:
         print('your BMI is ', bmi)
         bmi_cat2 = bmi_category(bmi)
         print('and your category is', bmi_cat2)
+    # input in ft
     elif (height_type == 3):
         height = height / 3.281
         print('your height in meter is : ', height)
@@ -52,3 +53,15 @@ else:
         print('and your category is', bmi_cat3)
     else:
         print('invalid input')
+
+"""
+enter your age18
+you can enter your height in meter,centi meter, and in ft
+press 1 if you want to enter your height in meter
+ 2 if you want to enter your height in centimeter 3 if you want to enter your height in ft
+enter the method you want to provide your input: 2
+enter your height168
+enter your weight58
+your height in meter is :  1.68
+your BMI is  20.549886621315196
+"""

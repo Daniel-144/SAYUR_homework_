@@ -19,6 +19,11 @@ else:
     name_and_age(year_of_birth,present_year,name)
 
 
-
-
+"""
+OP
+enter your year of birth: 2004
+enter your name: daniel
+your name is  daniel your age is 19
+thank you
+"""
 
