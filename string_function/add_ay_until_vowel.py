@@ -5,9 +5,8 @@
 #answer Iay maay nPythoay (in Python 'o' is the first vowel)
 
 inputSentence = input("enter a sentence:")
-inputSentence=inputSentence.lower()
 pigLatinKey = 'ay'
-vowels = ['a','e','i','o','u']
+vowels = ['a','e','i','o','u','A','E','I','O','U']
 newString=""
 for word in inputSentence.split(" "): #to store the words in the string as an iterable list
     #take the first chars until a vowel
@@ -19,7 +18,6 @@ for word in inputSentence.split(" "): #to store the words in the string as an it
             break
     # word[first_vowel_index+1:] -> the charaters after the vowels(eg: m,n)
     # word[:first_vowel_index+1] -> the charaters before the vowels and the vowel(eg: i,a,pytho)
-    print(word[:first_vowel_index+1])
     newString = newString+word[first_vowel_index+1:]+word[:first_vowel_index+1]+pigLatinKey
     # to add a space after the words
     newString+=" "
@@ -27,11 +25,9 @@ print(f"modified string is:{newString}")
 
 """
 OP
-enter a string:depression is just an illusion
-modified string is:pressiondeay siay stjuay naay llusioniay
-"""
-"""
+enter a sentence:I am Python
+modified string is:Iay maay nPythoay 
 OP
-enter a string:I am Python
-modified string is:iay maay npythoay 
+enter a sentence:Depression Is Just An Illusion
+modified string is:pressionDeay sIay stJuay nAay llusionIay 
 """
