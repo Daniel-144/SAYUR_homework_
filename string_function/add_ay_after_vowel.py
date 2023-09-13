@@ -24,7 +24,6 @@ for word in inputSentence.split(" "): #to store the words in the string as an it
 print(f"modified string is:{newString}")
 
 
-
 """
 OP
 enter a sentence:I am Python
