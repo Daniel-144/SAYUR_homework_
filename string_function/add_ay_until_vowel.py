@@ -9,7 +9,7 @@ inputSentence=inputSentence.lower()
 pigLatinKey = 'ay'
 vowels = ['a','e','i','o','u']
 newString=""
-for word in inputSentence.split(" "): #to store the words in the string as an iterable
+for word in inputSentence.split(" "): #to store the words in the string as an iterable list
     #take the first chars until a vowel
     first_vowel_index = 0
     for index, char in enumerate(word): #returns both the index and the char in the word
@@ -17,7 +17,7 @@ for word in inputSentence.split(" "): #to store the words in the string as an it
         if char in vowels:
             first_vowel_index = index
             break
-    # word[first_vowel_index+1] -> the charaters after the vowels(eg: m,n)
+    # word[first_vowel_index+1:] -> the charaters after the vowels(eg: m,n)
     # word[:first_vowel_index+1] -> the charaters before the vowels and the vowel(eg: i,a,pytho)
     print(word[:first_vowel_index+1])
     newString = newString+word[first_vowel_index+1:]+word[:first_vowel_index+1]+pigLatinKey
