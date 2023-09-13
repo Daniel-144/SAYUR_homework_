@@ -4,7 +4,7 @@
 #eg I am Python
 #answer Iay maay nPythoay (in Python 'o' is the first vowel)
 
-inputSentence = input("enter a string:")
+inputSentence = input("enter a sentence:")
 inputSentence=inputSentence.lower()
 pigLatinKey = 'ay'
 vowels = ['a','e','i','o','u']
