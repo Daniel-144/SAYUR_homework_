@@ -6,14 +6,14 @@
 
 inputSentence = input("enter a sentence:")
 pigLatinKey = 'ay'
-vowels = ['a','e','i','o','u','A','E','I','O','U']
+vowels = ['a','e','i','o','u']
 newString=""
 for word in inputSentence.split(" "): #to store the words in the string as an iterable list
     #take the first chars until a vowel
     first_vowel_index = 0
     for index, char in enumerate(word): #returns both the index and the char in the word
         #to find the index of the vowel in the word
-        if char in vowels:
+        if char.lower() in vowels:
             first_vowel_index = index
             break
     # word[first_vowel_index+1:] -> the charaters after the vowels(eg: m,n)
