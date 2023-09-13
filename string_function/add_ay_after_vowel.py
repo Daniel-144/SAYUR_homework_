@@ -16,8 +16,8 @@ for word in inputSentence.split(" "): #to store the words in the string as an it
         if char.lower() in vowels:
             first_vowel_index = index
             break
-    # word[first_vowel_index+1:] -> the charaters after the vowels(eg: m,n)
-    # word[:first_vowel_index+1] -> the charaters before the vowels and the vowel(eg: i,a,pytho)
+    # word[first_vowel_index+1:] -> the charaters after the vowels(eg: m,n) in ("i am python")
+    # word[:first_vowel_index+1] -> the charaters before the vowels and the vowel(eg: i,a,pytho) in ("i am python")
     newString = newString+word[first_vowel_index+1:]+word[:first_vowel_index+1]+pigLatinKey
     # to add a space after the words
     newString+=" "
