@@ -49,7 +49,7 @@ while(True):
             charCount=len(password)-(specialCharCount+numCount)
             # determing the strength of the characters
             # assuming the special case(not given in the question)as zero.
-            if specialCharCount==0:
+            if specialCharCount == 0 or numCount == 0:
                 print('password strength:weak')
                 print("try again")
             elif charCount>=3 and numCount>=2 and specialCharCount>=1:
