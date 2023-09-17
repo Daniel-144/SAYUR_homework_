@@ -27,7 +27,8 @@ while(True):
         print("password is too short")
         print("try again")
     # average maximum password length
-    elif len(password) > 127:
+    #Typical maximum length is 128 characters.
+    elif len(password) >= 128:
         print("password is too long")
         print("try again")
     else:
@@ -51,7 +52,7 @@ while(True):
             if specialCharCount==0:
                 print('password strength:weak')
                 print("try again")
-            if charCount>=3 and numCount>=2 and specialCharCount>=1:
+            elif charCount>=3 and numCount>=2 and specialCharCount>=1:
                 if len(password)<16:
                     print("password strength:strong")
                     break
@@ -60,8 +61,18 @@ while(True):
                     break
             else:
                 print("password strength:Ok")
+                print("try again")
 
-
+"""
+enter your password:Daniel123
+password strength:weak
+try again
+enter your password:d123456@123
+password strength:Ok
+try again
+enter your password:Daniel@123
+password strength:strong
+"""
         
 
 
