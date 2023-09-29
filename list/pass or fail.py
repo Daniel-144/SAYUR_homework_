@@ -22,6 +22,11 @@ for mark in range(len(StudentMark)):
 print(f"pass student's name and markks:{PassList}")
 print(f"No of student's failed:{failcount}")
 
+"""
+OP
+pass student's name and markks:['ram:56', 'gopal:78', 'sam:90']
+No of student's failed:2
+"""
 
 
 

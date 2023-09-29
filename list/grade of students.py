@@ -16,3 +16,8 @@ for mark in range(len(csmarks)):
     if((csmarks[mark] >= 90 or mathmark[mark] >= 90 or engmark[mark] >= 90) and (csmarks[mark]>=80 and mathmark[mark]>=80 and engmark[mark] >= 80)):
         students_with_goodgrades.append(studentlist[mark])
 print("students with atlest 80 marks in all subjects and with atleast only one a grade:",students_with_goodgrades)
+
+"""
+OP
+students with atlest 80 marks in all subjects and with atleast only one a grade: ['sergio ramos', 'christiano ronaldo']
+"""

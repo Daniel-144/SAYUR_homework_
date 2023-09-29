@@ -22,3 +22,10 @@ for no in range(start,end+1):
     if no == answer:
         MirorNumber.append(answer)
 print(f"the list of mirror numbers:{MirorNumber}")
+
+"""
+OP
+enter the starting range: 300
+enter the ending range: 400
+the list of mirror numbers:[303, 313, 323, 333, 343, 353, 363, 373, 383, 393]
+"""
