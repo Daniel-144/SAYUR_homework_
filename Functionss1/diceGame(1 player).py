@@ -38,4 +38,16 @@ total_points=calculate_points(points)
 print("Game Over!!")
 print(f"Total points earned:{total_points}")
 
+"""
+OP:
+the rolled value is 1
+You have to jump!!
+the rolled value is 5
+the rolled value is 1
+You have to jump!!
+the rolled value is 0
+Game Over!!
+Total points earned:3
+"""
+
 

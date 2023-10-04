@@ -69,6 +69,7 @@ while True:
                 print(f"loss:{total-expenses}Rs")
             else:
                 print(f"neither profit nor loss:{total-expenses}Rs")
+            break
         else:
             print("invalid input")
     else:

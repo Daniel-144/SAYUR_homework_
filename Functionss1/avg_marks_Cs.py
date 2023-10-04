@@ -16,3 +16,12 @@ computerScienceMrk3=float(input("enter your Computer Science mark in 3rd exam:")
 # the defined function has been cakled and the arguments are passed.
 average=calculate_avg_marks_CS(computerScienceMrk1,computerScienceMrk2,computerScienceMrk3)
 print(f"your average is:{average}")
+
+
+"""
+OP:
+enter your Computer Science mark in 1st exam:78
+enter your Computer Science mark in 2nd exam:90
+enter your Computer Science mark in 3rd exam:89
+your average is:85.67
+"""
