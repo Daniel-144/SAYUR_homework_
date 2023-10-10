@@ -4,7 +4,7 @@ In the input the first A and last A, print all the letters between those two A.
 If there is no A or 2nd A is not found, Find the first B after the first A (if there is a A) and last last B and print all letters between these two B.
 If there is no B or 2nd B is not found, Find the first C after the first B (if there is a B) and last last C and print all letters between these two C.
 """
-# Finding if there is two alpha present 
+# Finding if the given alphabet is present in the string.
 def findAlpha(ipstring,alpha):
     if alpha in ipstring:
         return(True)
@@ -12,34 +12,41 @@ def findAlpha(ipstring,alpha):
         print(f"NO {alpha} found")
         return(False)
 
+# function to find if there is one or more occurence.
 def find2Alpha(ipstring,alpha):
-    FirstAlpha=ipstring.find(alpha)
-    LastAlpha=ipstring.rfind(alpha)
-    if FirstAlpha == LastAlpha:
+    FirstAlphaIndex=ipstring.find(alpha)
+    LastAlphaIndex=ipstring.rfind(alpha)
+    if FirstAlphaIndex == LastAlphaIndex:
         print(f"only one {alpha} found.")
         return(False)
     else:
         return(True)
 
+# function to print the words between the given alphabet.
 def PrintIntermediateLetters(ipstring,alpha):
-    FirstAlpha=ipstring.find(alpha)
-    LastAlpha=ipstring.rfind(alpha)
-    print(f"the letters between the given alphabet {alpha} is : {ipstring[FirstAlpha+1:LastAlpha]}")
+    FirstAlphaIndex=ipstring.find(alpha)
+    LastAlphaIndex=ipstring.rfind(alpha)
+    print(f"the letters between the given alphabet {alpha} is : {ipstring[FirstAlphaIndex+1:LastAlphaIndex]}")
 
+# if there is only one occurence this function returns the address of the first occurance(will be used to slice the string).
 def slicingString(ipstring,alpha):
-    FirstAlpha=ipstring.find(alpha)
-    return(FirstAlpha)
+    FirstAlphaIndex=ipstring.find(alpha)
+    return(FirstAlphaIndex)
 
 
-
+# input from the user.
 string=input("enter any string:")
+# ascii value of the letter "a"
 alpha=97
+# converting the string to lower case to get rid of errors due to  case sensitivity.
+string=string.lower()
 for i in range(3):
     if(findAlpha(string,chr(alpha)) == True):
         if(find2Alpha(string,chr(alpha)) == True):
             PrintIntermediateLetters(string,chr(alpha))
             break
         else:
+            # string is sliced after the first occurance.
             string=string[slicingString(string,chr(alpha))+1:]
             alpha+=1
     else:

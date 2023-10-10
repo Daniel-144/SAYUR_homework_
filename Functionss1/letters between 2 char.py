@@ -14,9 +14,11 @@ def FindTheLettersBetween2Letters(inputString,alpha):
         if (FirstAlpha == LastAlpha):
             print("There is no A after the first A")
             return(False)
+        # it has more than one occurance so we can print the intermediate letters.
         else:
-            print(f"The Letters between two {alpha} is :{inputString[FirstAlpha+1:LastAlpha]}")
+            print(f"The Letters between two {alpha} is :'{inputString[FirstAlpha+1:LastAlpha]}'")
             return(True)
+    # no given alphabet is found in the string
     else:
         print(f"There is no {alpha} FOund")
         return(False)
@@ -26,8 +28,16 @@ def FindTheLettersBetween2Letters(inputString,alpha):
 string=input("enter the string:")
 # ascii value of letter "a".
 alph=97
-# if 
+string=string.lower()
+
 if(FindTheLettersBetween2Letters(string,chr(alph))==False):
     if(FindTheLettersBetween2Letters(string,chr(alph+1))==False):
         FindTheLettersBetween2Letters(string,chr(alph+2))
         
+
+"""
+1)enter the string:apple and orange
+The Letters between two a is :'pple and or'
+
+2)
+"""
