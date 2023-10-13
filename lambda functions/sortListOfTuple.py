@@ -6,8 +6,8 @@ lambda functios - sort by name, sort by cost
 # initialized a list of fruits and its cost.
 Fruits=[("apple", 50),("orange", 15) ,("mango", 30)]
 # sorted function is used and the key is passed with the help of lambda function
-SortByName=sorted(Fruits,key=lambda x:x[0]) # here the fruits list is passed as the argument and x[0] refers to fruits[o](name of the fruit)
-SortByCost=sorted(Fruits,key=lambda x:x[1]) # here the fruits list is passed as the argument and x[1] refers to fruits[1](cost of the fruit)
+SortByName=sorted(Fruits, key=lambda x : x[0]) # here the fruits list is passed as the argument and x[0] refers to fruits[o](name of the fruit)
+SortByCost=sorted(Fruits, key=lambda x : x[1]) # here the fruits list is passed as the argument and x[1] refers to fruits[1](cost of the fruit)
 print(f"List sorted by name:{SortByName}")
 print(f"List sorted by cost:{SortByCost}")
 
