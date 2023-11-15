@@ -19,5 +19,5 @@ print("students with atlest 80 marks in all subjects and with atleast only one a
 
 """
 OP
-students with atlest 80 marks in all subjects and with atleast only one a grade: ['sergio ramos', 'christiano ronaldo']
+students with atlest 80 marks in all subjects and with atleast only one A grade: ['sergio ramos', 'christiano ronaldo']
 """

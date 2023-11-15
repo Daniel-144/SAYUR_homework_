@@ -1,0 +1,4 @@
+vadai 100 10 5
+tea 100 10 5
+coffee 100 10 5
+samosa 100 10 5
